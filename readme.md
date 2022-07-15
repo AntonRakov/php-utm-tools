@@ -9,7 +9,7 @@
 `$utmClient = new Utm;`
 
 `// Set utm-labels in cookie from GET-parameters`  
-`$utmClient = (new Utm)->set($_GET);`
+`$utmClient->set($_GET);`
 
 `// Get utm-labels from cookie`  
 `$utmClient->get();`
@@ -26,7 +26,7 @@
 `$utmClient = new Utm;`
 
 `// Запись utm-меток в cookie из GET-параметров`  
-`$utmClient = (new Utm)->set($_GET);`
+`$utmClient->set($_GET);`
 
 `// Получение utm-меток из cookie`  
 `$utmClient->get();`
